@@ -1,6 +1,7 @@
 ##Libreria
 import streamlit as st
 
+#Cambiar el color del fondo
 st.markdown(
     """
     <style>
@@ -31,14 +32,14 @@ st.subheader("Educación")
 
 st.write("**Comunicación audiovisual**")
 st.write("mar. 2023 - dic. 2027")
-st.write("Aptitudes: Arte y tecnología, Cine y 3 aptitudes más") # Puedes listar todas las aptitudes si quieres
+st.write("Aptitudes: Cine, Guion y Fotografía")
 
-st.write("---")
+st.write("---") #Separador
 ### Colegio Salesiano San Juan Bosco de Ayacucho
 st.write("**Educación Secundaria Obligatoria (ESO)**")
 st.write("mar. 2011 - dic. 2022")
 st.write("Actividades y grupos: Cantante, comunicador, regidor de tecnología y comunicación y sub-brigadier general")
-st.write("Aptitudes: Fotografía, Publicidad y 4 aptitudes más") # Puedes listar todas las aptitudes si quieres
+st.write("Aptitudes: Fotografía y Publicidad")
 
 ## Experiencia 
 st.subheader("Experiencia")
@@ -95,7 +96,7 @@ st.video("https://youtu.be/IVoQhfaI-LU?si=zPCW8QLpXhwFOEyf")
 
 st.write("Este es un video sobre mi proyecto en conjunto con la banda Bacillus de Ayacucho en 2022. En este proyecto lo he producido en su totalidad yo con inversión de Rafael Arias")
 
-## Conéctate Conmigo
+## Conexión
 
 st.write("Puedes encontrarme en mis redes sociales y contactarme por correo:")
 st.write("---") # Una línea divisoria para separar el contenido principal
