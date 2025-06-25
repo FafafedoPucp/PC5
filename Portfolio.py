@@ -1,6 +1,5 @@
 ##Libreria
 import streamlit as st
-from PIL import Image
 
 st.markdown(
     """
@@ -13,8 +12,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-imagen_erick = Image.open('fotoperfil.jpg')
-st.image(imagen_erick, caption='Foto de perfil', width=200)
+
+st.image('fotoperfil.jpg', caption='Foto de perfil', width=200)
 
 ##Título
 st.title("Erick Farfan de la Cruz")
