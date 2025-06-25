@@ -22,11 +22,35 @@ st.title("Erick Farfan de la Cruz")
 st.subheader("Sobre mi")
 
 # Párrafo
-st.write("¡Hola! Soy Erick Farfan de la Cruz. Me apasiona la comunicación audiovisual y la programación.")
-st.write("Este es un segundo párrafo para mostrarte cómo agregar más texto.")
+st.write("¡Hola! Actualmente soy estudiante de Comunicación Audiovisual en la Pontificia Universidad Católica del Perú (5to ciclo) y me encanta programar en Python")
+st.write("Soy un líder seguro que encuentra soluciones creativas y sencillas, mantiene buenas relaciones interpersonales con un carácter amigable y emprendedor, promoviendo tolerancia, amabilidad, justicia y equidad.")
+
+## Educación
+st.subheader("Educación")
+### Pontificia Universidad Católica del Perú
+
+st.write("**Comunicación audiovisual**")
+st.write("mar. 2023 - dic. 2027")
+st.write("Aptitudes: Arte y tecnología, Cine y 3 aptitudes más") # Puedes listar todas las aptitudes si quieres
+
+st.write("---")
+### Colegio Salesiano San Juan Bosco de Ayacucho
+st.write("**Educación Secundaria Obligatoria (ESO)**")
+st.write("mar. 2011 - dic. 2022")
+st.write("Actividades y grupos: Cantante, comunicador, regidor de tecnología y comunicación y sub-brigadier general")
+st.write("Aptitudes: Fotografía, Publicidad y 4 aptitudes más") # Puedes listar todas las aptitudes si quieres
+
+## Experiencia 
+st.subheader("Experiencia")
+
+### Asistente de cámara
+st.write("**Llipiq Producciones · Jornada completa**")
+# Usamos la clase small-text para las fechas y duración
+st.markdown('<p class="small-text">dic. 2023 - mar. 2024 · 4 meses</p>', unsafe_allow_html=True)
+st.write("Provincia de Huamanga, Departamento de Ayacucho, Perú · Presencial")
 
 ## Portafolio Fotográfico
-
+st.title("Portafolio")
 ### Subtítulo
 st.subheader("Fotografías de Paisaje")
 ### Fotografía de Retrato
