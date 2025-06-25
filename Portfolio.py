@@ -14,7 +14,7 @@ st.markdown(
 )
 
 
-st.image('fotoperfil.JPG', caption='Foto de perfil', width=200)
+st.image('fotoperfil.JPG', width=200)
 
 ##Título
 st.title("Erick Farfan de la Cruz")
